@@ -29,8 +29,6 @@ font-size: 14px;
 }
 </style>
 </head>
-<a href="tel:+996705204886" class="your-button-class">
-  Позвонить
 </a>
 <body>
 
@@ -39,7 +37,9 @@ font-size: 14px;
 <p>Быстро • Качественно • Надёжно</p>
 </header>
 
-<div class="container">
+<div class="container"><a href="tel:+996705204886" class="your-button-class">
+  Позвонить
+</a>
 <h2>Наши услуги</h2>
 <p>✔ Установка сантехники</p>
 <p>✔ Замена труб</p>
