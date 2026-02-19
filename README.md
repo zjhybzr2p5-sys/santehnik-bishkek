@@ -4,17 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Сантехник в Бишкеке 24/7 | Срочный выезд</title>
-<meta name="description" content="Проверенный сантехник в Бишкеке. Срочный выезд 24/7. Гарантия на работу. Честные цены. Напишите в WhatsApp прямо сейчас!">
+<meta name="description" content="Профессиональный сантехник в Бишкеке. Срочный выезд 24/7. Гарантия. Честные цены. Звоните или пишите в WhatsApp.">
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',sans-serif;background:#f4f6f9;color:#222;line-height:1.6}
-header{background:linear-gradient(135deg,#004aad,#001f5c);color:white;text-align:center;padding:90px 20px}
+
+header{
+background:linear-gradient(135deg,#004aad,#001f5c);
+color:white;
+text-align:center;
+padding:90px 20px
+}
+
 header h1{font-size:38px;margin-bottom:15px}
 header p{font-size:18px;margin-bottom:30px}
-.btn{display:inline-block;background:#25D366;color:white;padding:16px 34px;
-border-radius:12px;font-size:18px;font-weight:bold;text-decoration:none;transition:.3s}
-.btn:hover{background:#1ebe5d;transform:scale(1.05)}
+
+.btn{
+display:inline-block;
+padding:16px 34px;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+text-decoration:none;
+transition:.3s;
+margin:5px
+}
+
+.btn-whatsapp{background:#25D366;color:white}
+.btn-whatsapp:hover{background:#1ebe5d;transform:scale(1.05)}
+
+.btn-call{background:#ffc107;color:black}
+.btn-call:hover{background:#e0a800;transform:scale(1.05)}
 
 .section{padding:70px 20px;max-width:1100px;margin:auto}
 .section h2{text-align:center;margin-bottom:45px;font-size:28px}
@@ -25,17 +46,31 @@ border-radius:12px;font-size:18px;font-weight:bold;text-decoration:none;transiti
 .grid-2{grid-template-columns:repeat(2,1fr)}
 }
 
-.card{background:white;padding:25px;border-radius:18px;
-box-shadow:0 10px 30px rgba(0,0,0,.05);transition:.3s}
-.card:hover{transform:translateY(-6px)}
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+transition:.3s
+}
 
+.card:hover{transform:translateY(-6px)}
 .highlight{background:#e8f1ff;border-left:6px solid #004aad}
 
-.steps{background:#ffffff}
+.cta{
+background:#004aad;
+color:white;
+text-align:center;
+padding:70px 20px
+}
 
-.cta{background:#004aad;color:white;text-align:center;padding:70px 20px}
-
-footer{background:#111;color:white;text-align:center;padding:30px;font-size:14px}
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+font-size:15px
+}
 
 .whatsapp-float{
 position:fixed;
@@ -57,9 +92,23 @@ box-shadow:0 6px 20px rgba(0,0,0,.3)
 <header>
 <h1>Сантехник в Бишкеке 24/7</h1>
 <p>Выезд за 30–60 минут • Гарантия • Без скрытых цен</p>
-<a class="btn" href="https://wa.me/996705204886?text=Здравствуйте,%20нужен%20сантехник%20в%20Бишкеке" target="_blank">
-Написать в WhatsApp
+
+<a class="btn btn-whatsapp"
+href="https://wa.me/996705204886?text=Здравствуйте,%20нужен%20сантехник%20в%20Бишкеке"
+target="_blank">
+💬 Написать в WhatsApp
 </a>
+
+<br>
+
+<a class="btn btn-call" href="tel:+996705204886">
+📞 Позвонить 0705 204 886
+</a>
+
+<a class="btn btn-call" href="tel:+996705148107">
+📞 Позвонить 0705 148 107
+</a>
+
 </header>
 
 <section class="section">
@@ -83,41 +132,36 @@ box-shadow:0 6px 20px rgba(0,0,0,.3)
 </div>
 </section>
 
-<section class="section steps">
-<h2>Как мы работаем</h2>
-<div class="grid grid-3">
-<div class="card">1️⃣ Вы пишете в WhatsApp</div>
-<div class="card">2️⃣ Мы уточняем проблему и называем цену</div>
-<div class="card">3️⃣ Приезжаем и решаем вопрос</div>
-</div>
-</section>
-
-<section class="section">
-<h2>Отзывы клиентов</h2>
-<div class="grid grid-2">
-<div class="card">⭐⭐⭐⭐⭐<br><br>
-Приехал быстро, всё сделал аккуратно. Цена как договорились.
-</div>
-<div class="card">⭐⭐⭐⭐⭐<br><br>
-Устранил протечку за 30 минут. Очень доволен работой.
-</div>
-</div>
-</section>
-
 <section class="cta">
-<h2>Нужен сантехник прямо сейчас?</h2>
-<p style="margin-bottom:25px;">Напишите в WhatsApp — ответим сразу</p>
-<a class="btn" href="https://wa.me/996705204886?text=Здравствуйте,%20нужен%20сантехник%20в%20Бишкеке" target="_blank">
-Связаться в WhatsApp
+<h2>Свяжитесь с нами прямо сейчас</h2>
+<p style="margin-bottom:25px;">Работаем по всему Бишкеку</p>
+
+<a class="btn btn-whatsapp"
+href="https://wa.me/996705204886?text=Здравствуйте,%20нужен%20сантехник%20в%20Бишкеке"
+target="_blank">
+💬 Написать в WhatsApp
 </a>
+
+<br><br>
+
+<a class="btn btn-call" href="tel:+996705204886">
+📞 0705 204 886
+</a>
+
+<a class="btn btn-call" href="tel:+996705148107">
+📞 0705 148 107
+</a>
+
 </section>
 
 <footer>
-📞 +996 705 204 886<br>
+📞 0705 204 886 | 0705 148 107<br>
 Бишкек ©️ 2026
 </footer>
 
-<a class="whatsapp-float" href="https://wa.me/996705204886?text=Здравствуйте,%20нужен%20сантехник%20в%20Бишкеке" target="_blank">
+<a class="whatsapp-float"
+href="https://wa.me/996705204886?text=Здравствуйте,%20нужен%20сантехник%20в%20Бишкеке"
+target="_blank">
 💬
 </a>
 
