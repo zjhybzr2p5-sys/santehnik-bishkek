@@ -29,7 +29,9 @@ font-size: 14px;
 }
 </style>
 </head>
-
+<a href="tel:+996705204886" class="your-button-class">
+  Позвонить
+</a>
 <body>
 
 <header>
